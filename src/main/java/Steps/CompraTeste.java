@@ -8,7 +8,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class CompraTeste {
 
    @Test
-   public void realizarlogin() {
+   public void realizarCompra() {
 	System.setProperty("webdriver.com.driver", "C:\\chromedriver.exe");
 	  WebDriver driver = new ChromeDriver();
 	  driver.get("https://www.saucedemo.com");
